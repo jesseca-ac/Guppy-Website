@@ -28,6 +28,10 @@ img {
     max-width: 100%;
 }
 
+#main-logo {
+    max-width: 50%;
+}
+
 .button {
     background-color:whitesmoke;
     color: black;
