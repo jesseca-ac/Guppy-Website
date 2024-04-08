@@ -13,25 +13,10 @@
 </head>
 
 <body>
-    <!-- START Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4R22CBFSJ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-R4R22CBFSJ');
-    </script>
-    <!-- END Google tag (gtag.js) -->
+    <script src="components/google-tag.js"></script>
 
     <div id="main" class="container">
-        <navbar>
-            <div>
-                <a class="button" href="../index.html">Home</a>
-                <a class="button" href="./about.html">Who We Are</a>
-                <a class="button" href="./faq.html">FAQ</a>
-            </div>
-        </navbar>
+        <header id="header" class="container"></header>
 
         <section id="strollers" class="container">
             <h1>Available Rental Units</h1>
@@ -39,32 +24,16 @@
             <div class="elfsight-app-434c1e7f-6977-41b5-943e-d18026cc2940" data-elfsight-app-lazy></div>
         </section>
 
-        <section id="reviews" class="container">
-            <h1>What Our Customers Say</h1>
-            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-            <div class="elfsight-app-c4c1befc-edc3-4f48-b8d2-a09692fbb5e8" data-elfsight-app-lazy></div>
-        </section>
-
-        <footer id="footer" class="container">
-            <hr>
-                <p>© 2024 &middot; Built with love &hearts; by the beautiful people of the Philippines &middot; All
-                    rights reserved.</p>
-                <div>
-                    <a href="https://www.facebook.com/guppyonestop" target="_blank"><img class="no-border-no-shadow"
-                            src="images/facebook.svg" /></a>
-                    <a href="https://www.instagram.com/guppyonestop" target="_blank"><img class="no-border-no-shadow"
-                            src="images/instagram.svg" /></a>
-                    <a href="https://www.youtube.com/@guppyonestop" target="_blank"><img class="no-border-no-shadow"
-                            src="images/youtube.svg" /></a>
-                </div>
-        </footer>
+        <section id="reviews" class="container"></section>
+        <footer id="footer" class="container"></footer>
+        <div id="chat-widget"></div>
 
     </div>
 
-    <!-- START Chat Widget -->
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-2d06fd38-214f-4b9f-b56f-f9933e7331d2" data-elfsight-app-lazy></div>
-    <!-- END Chat Widget -->
+    <script src="/components/header.js"></script>
+    <script src="/components/reviews.js"></script>
+    <script src="/components/footer.js"></script>
+    <script src="/components/chat-widget.js"></script>
 </body>
 
 </html>

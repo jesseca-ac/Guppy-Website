@@ -6,4 +6,4 @@ document.getElementById('footer').innerHTML = `
         <a href="https://www.instagram.com/guppyonestop" target="_blank"><img class="no-border-no-shadow" src="images/instagram.svg" /></a>
         <a href="https://www.youtube.com/@guppyonestop" target="_blank"><img class="no-border-no-shadow" src="images/youtube.svg" /></a>
     </div>
-`
+`;
