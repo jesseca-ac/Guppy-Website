@@ -18,10 +18,36 @@
     <div id="main" class="container">
         <header id="header" class="container"></header>
 
-        <section id="strollers" class="container">
+        <section id="rates" class="container">
             <h1>Rental Rates</h1>
-            <p><em>(as of April 2024)</em></p>
-
+            <p><em>(Rates in PHP as of April 2024)</em></p>
+            <table id="rates-table">
+                <tr>
+                  <th id="hidden-cell"></th>
+                  <th>6 Hour Rental</th>
+                  <th>24 Hour Rental</th>
+                </tr>
+                <tr>
+                  <td>Small Wheel Stroller</td>
+                  <td>210</td>
+                  <td>525</td>
+                </tr>
+                <tr>
+                  <td>Big Wheel Stroller</td>
+                  <td>300</td>
+                  <td>750</td>
+                </tr>
+                <tr>
+                    <td>Twin Stroller</td>
+                    <td>300</td>
+                    <td>750</td>
+                </tr>
+                <tr>
+                    <td>Push Pull Wagon</td>
+                    <td>300</td>
+                    <td>750</td>
+                </tr>
+              </table>
         </section>
 
         <section id="reviews" class="container"></section>
@@ -31,6 +57,7 @@
     </div>
 
     <script src="/components/header.js"></script>
+    <script src="/components/rates.js"></script>
     <script src="/components/reviews.js"></script>
     <script src="/components/footer.js"></script>
     <script src="/components/chat-widget.js"></script>

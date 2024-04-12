@@ -75,3 +75,18 @@ img {
     display: inline-block;
     box-shadow: 3px 5px black;
 }
+
+table, th, td {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+}
+
+th, td {
+    background-color: lightskyblue;
+}
+
+#hidden-cell {
+    background-color: white;
+}
