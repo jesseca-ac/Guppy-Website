@@ -1,0 +1,33 @@
+{   
+    {
+        "unit" : "Small Wheel Stroller",
+        "sixHourRate" : 210,
+        "dailyRate" : 500
+    },
+    {
+        "unit" : "Big Wheel Stroller",
+        "sixHourRate" : 210,
+        "dailyRate" : 500
+    },
+    {
+        "unit" : "Twin Stroller",
+        "sixHourRate" : 210,
+        "dailyRate" : 500
+    },
+    {
+        "unit" : "Push-Pull Wagon",
+        "sixHourRate" : 210,
+        "dailyRate" : 500
+    },
+    {
+        "unit" : "Small Wheel Wheelchair",
+        "sixHourRate" : 210,
+        "dailyRate" : 500
+    },
+    {
+        "unit" : "Big Wheel Wheelchair",
+        "sixHourRate" : 210,
+        "dailyRate" : 500
+    }
+}
+    
