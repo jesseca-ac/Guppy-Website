@@ -83,6 +83,23 @@ img {
     box-shadow: 3px 5px black;
 }
 
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.block {
+    width: 20%;
+    margin: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color:white;
+    box-shadow: 3px 5px orange;
+}
+
+
 table, th, td {
     padding: 10px;
     margin-left: auto;
